@@ -1,0 +1,182 @@
+//<!--头部 header start-->
+#header{
+  height: 50px;
+  background-color: #ff841d;
+  line-height: 50px;
+  padding: 0 10px;
+  a:first-child{
+    display: block;
+    float: left;
+    img{
+      width: 190px;
+      height: 25px;
+    }
+  }
+  a:last-child{
+    float: right;
+    display: block;
+    img{
+      width: 34px;
+      height: 34px;
+    }
+  }
+}
+//<!--头部 header end-->
+
+//<!--搜索 search start-->
+#search{
+  height: 50px;
+  padding: 10px;
+  form{
+    display: flex;
+    input:first-child{
+      flex: 1;
+      margin-right: 5px;
+      background-color: #f1f1f1;
+      border: none;
+      border-radius: 10px;
+      padding-left: 10px;
+    }
+    input:last-child{
+      width: 63px;
+      height: 30px;
+      background-color: #ff841d;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
+//<!--搜索 search end-->
+
+//<!--菜单 menu start-->
+#menu{
+  .item{
+    a{
+      text-align: center;
+      img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+      }
+      p{
+        font-size: 12px;
+        margin: 5px 0;
+      }
+    }
+    &:nth-last-child(-n+4){
+      display: none;
+    }
+  }
+}
+//<!--菜单 menu end-->
+
+//<!--产品 product start-->
+#discount{
+  .discount_title{
+    height: 35px;
+    background-color: #ff841d;
+    padding: 0 10px;
+    line-height: 35px;
+    span{
+      float: left;
+      color: #fff;
+      font-size: 16px;
+    }
+    img{
+      width: 20px;
+      height: 20px;
+      float: right;
+      margin-top: 7px;
+    }
+  }
+  .discount_product{
+    .media{
+      .media-left{
+        img{
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .media-body{
+        padding-left: 10px;
+        margin-bottom: 5px;
+        h4{
+          font-size: 16px;
+          height: 50px;
+          line-height: 24px;
+        }
+        .media-other{
+          color: #a1a1a1;
+          margin-top: 25px;
+          font-size: 12px;
+          .other-shop{
+            float: left;
+          }
+          .other-talk{
+            float: right;
+          }
+        }
+      }
+    }
+  }
+  .discount_more{
+    padding: 10px;
+    a{
+      display: block;
+      height: 30px;
+      background-color: #f4f4f4;
+      border: 1px solid #f1f1f1;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+}
+//<!--产品 product end-->
+
+//<!--尾部 footer start-->
+#footer{
+  .footer_top{
+    margin: 10px 0;
+    height: 35px;
+    line-height: 35px;
+    background-color: #efefef;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    a{
+      display: block;
+      text-align: center;
+      float: left;
+    }
+    a:first-child{
+      width: 30%;
+      border-right: 1px solid #c4c4c4;
+    }
+    a:nth-child(2){
+      width: 30%;
+      border-right: 1px solid #c4c4c4;
+    }
+    a:last-child{
+      width: 40%;
+      img{
+        width: 30px;
+        height: 30px;
+        margin-top: -4px;
+      }
+    }
+  }
+  .footer_bottom{
+    text-align: center;
+    font-size: 10px;
+    a{
+      margin: 0 3px;
+    }
+    a:first-child{
+      color: #f40;
+    }
+    a:last-child{
+      display: block;
+    }
+  }
+}
+//<!--尾部 footer end-->
